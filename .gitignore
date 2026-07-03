@@ -1,0 +1,85 @@
+# Maven / Java build output
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Keep Maven wrapper if added later
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven local runtime metadata
+.mvn/timing.properties
+
+# Test / coverage reports
+surefire-reports/
+failsafe-reports/
+jacoco.exec
+coverage/
+
+# Spring Boot / local runtime
+logs/
+*.pid
+*.hprof
+heapdump.*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+application-*.local.yml
+application-*.local.yaml
+
+# Docker / local volumes
+docker-data/
+.docker/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Kotlin / Gradle leftovers
+.kotlin/
+.gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux temporary files
+*~
+.nfs*
